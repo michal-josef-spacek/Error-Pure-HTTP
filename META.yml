@@ -26,6 +26,7 @@ no_index:
 requires:
   Error::Pure::Output::Text: 0.08
   Error::Pure::Utils: 0.08
+  List::MoreUtils: 0
   Readonly: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-HTTPText

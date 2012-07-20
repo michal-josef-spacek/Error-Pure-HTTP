@@ -12,6 +12,7 @@ license 'bsd';
 name 'Error-Pure-HTTPText';
 requires 'Error::Pure::Utils' => 0.08;
 requires 'Error::Pure::Output::Text' => 0.08;
+requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Error-Pure-HTTPText';
