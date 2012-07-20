@@ -1,0 +1,35 @@
+0.09
+
+0.08 (June 22, 2012)
+- Fix Makefile.PL to Module::CPANTS::Analyse conformity.
+
+0.07 (May 16, 2012)
+- Add examples/ directory.
+
+0.06 (April 27, 2012)
+- Fix print for AllError output.
+- Add test for different key=value pair in backtrace.
+- Rewrite to new version of build system.
+
+0.05 (July 28, 2011)
+- Test::Pod not usable in Perl lesser then 5.8.0. (again)
+
+0.04 (July 19, 2011)
+- Fix situation with Test::Pod. It not usable in Perl lesser then 5.8.0.
+- Fix links in documentation.
+- Fix email link in documentation.
+- Better AUTHOR section in doc.
+- Remove obsolete ';' in code.
+- Remove "(3pm)" from pod doc.
+
+0.03 (July 13, 2011)
+- Add file exist check. Fix error in abs_path('(eval)') on Windows.
+
+0.02 (July 12, 2011)
+- Rename module test directories to better names (':' isn't allowed on window
+  platform). PR#69402
+- Add ACKNOWLEDGMENTS section to Error::Pure doc.
+- Rewrite build system to Module::Install.
+
+0.01 (July 11, 2011)
+- First version.
