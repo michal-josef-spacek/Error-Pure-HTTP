@@ -24,8 +24,8 @@ no_index:
     - inc
     - t
 requires:
-  Error::Pure::Output::Text: 0.08
-  Error::Pure::Utils: 0.08
+  Error::Pure::Output::Text: 0.09
+  Error::Pure::Utils: 0.09
   List::MoreUtils: 0
   Readonly: 0
 resources:
