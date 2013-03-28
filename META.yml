@@ -18,7 +18,7 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Error-Pure-HTTPText
+name: Error-Pure-HTTP
 no_index:
   directory:
     - inc
@@ -29,8 +29,8 @@ requires:
   List::MoreUtils: 0
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-HTTPText
-  homepage: https://github.com/tupinek/Error-Pure-HTTPText
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-HTTP
+  homepage: https://github.com/tupinek/Error-Pure-HTTP
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Error-Pure-HTTPText
+  repository: git://github.com/tupinek/Error-Pure-HTTP
 version: 0.01

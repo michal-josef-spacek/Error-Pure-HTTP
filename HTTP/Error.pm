@@ -1,4 +1,4 @@
-package Error::Pure::HTTPText;
+package Error::Pure::HTTP::Error;
 
 # Pragmas.
 use base qw(Exporter);
@@ -56,11 +56,11 @@ __END__
 
 =head1 NAME
 
-Error::Pure::HTTPText - Error::Pure module with error on one line over HTTP.
+Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
 =head1 SYNOPSIS
 
- use Error::Pure::HTTPText qw(err);
+ use Error::Pure::HTTP::Error qw(err);
  err 'This is a fatal error', 'name', 'value';
 
 =head1 SUBROUTINES
@@ -80,7 +80,7 @@ Error::Pure::HTTPText - Error::Pure module with error on one line over HTTP.
  use warnings;
 
  # Modules.
- use Error::Pure::HTTPText qw(err);
+ use Error::Pure::HTTP::Error qw(err);
 
  # Error.
  err '1';
@@ -97,7 +97,7 @@ Error::Pure::HTTPText - Error::Pure module with error on one line over HTTP.
  use warnings;
 
  # Modules.
- use Error::Pure::HTTPText qw(err);
+ use Error::Pure::HTTP::Error qw(err);
 
  # Error.
  err '1', '2', '3';
@@ -128,7 +128,7 @@ L<Error::Pure::Utils>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Error-Pure-HTTPText>
+L<https://github.com/tupinek/Error-Pure-HTTP>
 
 =head1 AUTHOR
 

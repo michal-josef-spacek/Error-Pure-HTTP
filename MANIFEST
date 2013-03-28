@@ -1,5 +1,5 @@
 Changes
-HTTPText.pm
+HTTP/Error.pm
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -11,7 +11,7 @@ inc/Module/Install/WriteAll.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
-t/Error-Pure-HTTPText/00-use.t
-t/Error-Pure-HTTPText/01-version.t
-t/Error-Pure-HTTPText/02-pod_coverage.t
-t/Error-Pure-HTTPText/03-pod.t
+t/Error-Pure-HTTP-Error/00-use.t
+t/Error-Pure-HTTP-Error/01-version.t
+t/Error-Pure-HTTP-Error/02-pod_coverage.t
+t/Error-Pure-HTTP-Error/03-pod.t
