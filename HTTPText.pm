@@ -36,6 +36,7 @@ sub err {
 
 		print "Content-type: text/plain\n\n";
 		print err_line(@errors);
+		return;
 
 	# Die for eval.
 	} else {
