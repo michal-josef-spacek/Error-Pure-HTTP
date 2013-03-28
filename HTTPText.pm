@@ -47,3 +47,101 @@ sub err {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Error::Pure::HTTPText - Error::Pure module with error on one line over HTTP.
+
+=head1 SYNOPSIS
+
+ use Error::Pure::HTTPText qw(err);
+ err 'This is a fatal error', 'name', 'value';
+
+=head1 SUBROUTINES
+
+=over 8
+
+=item B<err(@messages)>
+
+ Process error with messages @messages.
+
+=back
+
+=head1 EXAMPLE1
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Error::Pure::HTTPText qw(err);
+
+ # Error.
+ err '1';
+
+ # Output:
+ # Content-type: text/plain
+ # 
+ # #Error [/home/skim/oot:12] 1
+
+=head1 EXAMPLE2
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Error::Pure::HTTPText qw(err);
+
+ # Error.
+ err '1', '2', '3';
+
+ # Output:
+ # Content-type: text/plain
+ # 
+ # #Error [/home/skim/oot:12] 1
+
+=head1 DEPENDENCIES
+
+L<Error::Pure::Utils>,
+L<Error::Pure::Output::Text>,
+L<Exporter>,
+L<List::MoreUtils>,
+L<Readonly>.
+
+=head1 SEE ALSO
+
+L<Error::Pure>,
+L<Error::Pure::AllError>,
+L<Error::Pure::Die>,
+L<Error::Pure::Error>,
+L<Error::Pure::ErrorList>,
+L<Error::Pure::Output::Text>,
+L<Error::Pure::Print>,
+L<Error::Pure::Utils>.
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Error-Pure-HTTPText>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
