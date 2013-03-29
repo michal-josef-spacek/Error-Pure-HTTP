@@ -1,5 +1,5 @@
 ---
-abstract: 'Perl module for http plan output for structured errors.'
+abstract: 'Perl module for plain HTTP output for structured errors.'
 author:
   - 'Michal Špaček <skim@cpan.org>'
 build_requires:
@@ -21,6 +21,7 @@ meta-spec:
 name: Error-Pure-HTTP
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:

@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'Perl module for http plan output for structured errors.';
+abstract 'Perl module for plain HTTP output for structured errors.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-HTTP';
