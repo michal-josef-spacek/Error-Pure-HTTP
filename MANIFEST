@@ -3,8 +3,12 @@ examples/ex1.pl
 examples/ex2.pl
 examples/ex3.pl
 examples/ex4.pl
+examples/ex5.pl
+examples/ex6.pl
+examples/ex7.pl
 HTTP/AllError.pm
 HTTP/Error.pm
+HTTP/ErrorList.pm
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -24,3 +28,7 @@ t/Error-Pure-HTTP-Error/00-use.t
 t/Error-Pure-HTTP-Error/01-version.t
 t/Error-Pure-HTTP-Error/02-pod_coverage.t
 t/Error-Pure-HTTP-Error/03-pod.t
+t/Error-Pure-HTTP-ErrorList/00-use.t
+t/Error-Pure-HTTP-ErrorList/01-version.t
+t/Error-Pure-HTTP-ErrorList/02-pod_coverage.t
+t/Error-Pure-HTTP-ErrorList/03-pod.t
