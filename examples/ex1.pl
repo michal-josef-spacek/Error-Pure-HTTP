@@ -13,4 +13,4 @@ err '1';
 # Output:
 # Content-type: text/plain
 # 
-# #Error [/home/skim/oot:12] 1
+# #Error [script.pl:12] 1
