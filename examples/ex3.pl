@@ -10,7 +10,7 @@ use Error::Pure::HTTP::AllError qw(err);
 # Error.
 err "This is a fatal error.", "name", "value";
 
-# Output:
+# Output like this:
 # Content-type: text/plain
 #
 # ERROR: This is a fatal error.

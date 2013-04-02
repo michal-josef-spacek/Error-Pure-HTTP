@@ -16,7 +16,7 @@ err "This is a fatal error.", "name", "value";
 # Print after.
 print "After\n";
 
-# Output:
+# Output like this:
 # Before
 # Content-type: text/plain
 #

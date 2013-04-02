@@ -88,7 +88,7 @@ with informations over HTTP.
  # Error.
  err '1';
 
- # Output:
+ # Output like this:
  # Content-type: text/plain
  # 
  # #Error [script.pl:11] 1
@@ -105,7 +105,7 @@ with informations over HTTP.
  # Error.
  err '1', '2', '3';
 
- # Output:
+ # Output like this:
  # Content-type: text/plain
  # 
  # #Error [script.pl:11] 1
@@ -126,7 +126,7 @@ with informations over HTTP.
         err "2";
  }
 
- # Output:
+ # Output like this:
  # Content-type: text/plain
  # 
  # #Error [script.pl:12] 1

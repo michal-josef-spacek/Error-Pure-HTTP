@@ -14,7 +14,7 @@ if ($EVAL_ERROR) {
        err "2";
 }
 
-# Output:
+# Output like this:
 # Content-type: text/plain
 # 
 # #Error [script.pl:12] 1

@@ -87,7 +87,7 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
  # Error.
  err "This is a fatal error.", "name", "value";
 
- # Output:
+ # Output like this:
  # Content-type: text/plain
  #
  # ERROR: This is a fatal error.
@@ -112,7 +112,7 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
  # Print after.
  print "After\n";
 
- # Output:
+ # Output like this:
  # Before
  # Content-type: text/plain
  #
