@@ -1,4 +1,4 @@
-0.02
+0.02 (May 16, 2013)
 - Fix test dependency (missing 'Test::NoWarnings').
 
 0.01 (May 14, 2013)
