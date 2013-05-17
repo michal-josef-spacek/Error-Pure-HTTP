@@ -1,4 +1,4 @@
-package Error::Pure::HTTP::AllError;
+package Error::Pure::HTTP::Print;
 
 # Pragmas.
 use base qw(Exporter);
@@ -7,16 +7,16 @@ use warnings;
 
 # Modules.
 use Error::Pure::Utils qw(err_helper);
-use Error::Pure::Output::Text qw(err_bt_pretty);
 use List::MoreUtils qw(none);
 use Readonly;
 
 # Constants.
 Readonly::Array our @EXPORT_OK => qw(err);
+Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $EVAL => 'eval {...}';
 
 # Version.
-our $VERSION = 0.03;
+our $VERSION = 0.10;
 
 # Ignore die signal.
 $SIG{__DIE__} = 'IGNORE';
@@ -28,20 +28,29 @@ sub err {
 	# Get errors structure.
 	my @errors = err_helper(@msg);
 
+	# Error message.
+	my $e = $errors[-1]->{'msg'}->[0];
+	chomp $e;
+
 	# Finalize in main on last err.
 	my $stack_ar = $errors[-1]->{'stack'};
 	if ($stack_ar->[-1]->{'class'} eq 'main'
-		&& none { $_ eq $EVAL || $_ =~ m/^eval '/ms }
+		&& none { $_ eq $EVAL || $_ =~ /^eval '/ms }
 		map { $_->{'sub'} } @{$stack_ar}) {
 
+		my $class = $errors[-1]->{'stack'}->[0]->{'class'};
+		if ($class eq 'main') {
+			$class = $EMPTY_STR
+		}
+		if ($class) {
+			$class .= ': ';
+		}
 		print "Content-type: text/plain\n\n";
-		print scalar err_bt_pretty(@errors);
+		print $class."$e\n";
 		return;
 
 	# Die for eval.
 	} else {
-		my $e = $errors[-1]->{'msg'}->[0];
-		chomp $e;
 		die "$e\n";
 	}
 
@@ -58,16 +67,16 @@ __END__
 
 =head1 NAME
 
-Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
+Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
 
 =head1 SYNOPSIS
 
- use Error::Pure::HTTP::AllError qw(err);
- err "This is a fatal error.", "name", "value";
+ use Error::Pure::HTTP::Print qw(err);
+ err 'This is a fatal error', 'name', 'value';
 
 =head1 SUBROUTINES
 
-=over 4
+=over 8
 
 =item B<err(@messages)>
 
@@ -82,17 +91,15 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
  use warnings;
 
  # Modules.
- use Error::Pure::HTTP::AllError qw(err);
+ use Error::Pure::HTTP::Print qw(err);
 
  # Error.
- err "This is a fatal error.", "name", "value";
+ err '1';
 
- # Output like this:
+ # Output:
  # Content-type: text/plain
  #
- # ERROR: This is a fatal error.
- # name: value
- # main  err  ./script.pl  12
+ # 1
 
 =head1 EXAMPLE2
 
@@ -101,30 +108,19 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
  use warnings;
 
  # Modules.
- use Error::Pure::HTTP::AllError qw(err);
-
- # Print before.
- print "Before\n";
+ use Error::Pure::HTTP::Print qw(err);
 
  # Error.
- err "This is a fatal error.", "name", "value";
+ err '1', '2', '3';
 
- # Print after.
- print "After\n";
-
- # Output like this:
- # Before
+ # Output:
  # Content-type: text/plain
  #
- # ERROR: This is a fatal error.
- # name: value
- # main  err  ./script.pl  12
- # After
+ # 1
 
 =head1 DEPENDENCIES
 
 L<Error::Pure::Utils>,
-L<Error::Pure::Output::Text>,
 L<Exporter>,
 L<List::MoreUtils>,
 L<Readonly>.
@@ -136,11 +132,10 @@ L<Error::Pure::AllError>,
 L<Error::Pure::Die>,
 L<Error::Pure::Error>,
 L<Error::Pure::ErrorList>,
+L<Error::Pure::HTTP::AllError>,
 L<Error::Pure::HTTP::Error>,
 L<Error::Pure::HTTP::ErrorList>,
-L<Error::Pure::HTTP::Print>,
 L<Error::Pure::Output::Text>,
-L<Error::Pure::Print>,
 L<Error::Pure::Utils>.
 
 =head1 REPOSITORY
