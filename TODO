@@ -1,9 +1,11 @@
 TODO
 ====
-1. Implementovat nejake dalsi zakladni error tridy z Error::Pure?
 2. Udelat Error::Pure::HTTP.
 3. Udelat README.
 4.
 
 Applied
 =======
+1. Implementovat nejake dalsi zakladni error tridy z Error::Pure?
+Print.
+OK [20130517] skim
