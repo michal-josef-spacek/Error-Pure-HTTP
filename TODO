@@ -2,7 +2,8 @@ TODO
 ====
 2. Udelat Error::Pure::HTTP.
 3. Udelat README.
-4.
+4. Az bude v Error::Pure helper na vlastni err funkcionalitu, tak prepsat.
+5.
 
 Applied
 =======
