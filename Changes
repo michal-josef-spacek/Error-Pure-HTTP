@@ -1,4 +1,5 @@
 0.03
+- Add Error::Pure::HTTP.
 - Add Error::Pure::HTTP::Print.
 
 0.02 (May 16, 2013)
