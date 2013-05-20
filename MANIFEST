@@ -6,6 +6,7 @@ examples/ex4.pl
 examples/ex5.pl
 examples/ex6.pl
 examples/ex7.pl
+HTTP.pm
 HTTP/AllError.pm
 HTTP/Error.pm
 HTTP/ErrorList.pm
@@ -32,3 +33,7 @@ t/Error-Pure-HTTP-ErrorList/00-use.t
 t/Error-Pure-HTTP-ErrorList/01-version.t
 t/Error-Pure-HTTP-ErrorList/02-pod_coverage.t
 t/Error-Pure-HTTP-ErrorList/03-pod.t
+t/Error-Pure-HTTP/00-use.t
+t/Error-Pure-HTTP/01-version.t
+t/Error-Pure-HTTP/02-pod_coverage.t
+t/Error-Pure-HTTP/03-pod.t
