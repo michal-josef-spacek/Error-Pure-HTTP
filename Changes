@@ -1,4 +1,4 @@
-0.03
+0.03 (May 20, 2013)
 - Add Error::Pure::HTTP.
 - Add Error::Pure::HTTP::Print.
 
