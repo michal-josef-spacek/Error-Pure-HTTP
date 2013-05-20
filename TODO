@@ -1,7 +1,5 @@
 TODO
 ====
-2. Udelat Error::Pure::HTTP.
-3. Udelat README.
 4. Az bude v Error::Pure helper na vlastni err funkcionalitu, tak prepsat.
 5.
 
@@ -10,3 +8,9 @@ Applied
 1. Implementovat nejake dalsi zakladni error tridy z Error::Pure?
 Print.
 OK [20130517] skim
+
+3. Udelat README.
+OK [20130520] skim
+
+2. Udelat Error::Pure::HTTP.
+OK [20130520] skim
