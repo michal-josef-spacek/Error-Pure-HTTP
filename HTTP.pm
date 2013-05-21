@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 # Version.
-our $VERSION = 0.04;
+our $VERSION = 0.11;
 
 1;
 
@@ -73,6 +73,6 @@ BSD license.
 
 =head1 VERSION
 
-0.04
+0.11
 
 =cut
