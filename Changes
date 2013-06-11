@@ -1,4 +1,5 @@
 0.12
+- Add missing Error::Pure::HTTP::AllError to SEE ALSO section in doc.
 
 0.11 (May 21, 2013)
 - Fix versions in modules to one higher version.
