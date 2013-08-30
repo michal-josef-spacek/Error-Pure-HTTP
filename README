@@ -17,10 +17,13 @@ DESCRIPTION
             Print error as simple string over HTTP.
 
 SEE ALSO
-    Error::Pure, Error::Pure::AllError, Error::Pure::Die,
-    Error::Pure::Error, Error::Pure::ErrorList, Error::Pure::HTTP::Error,
-    Error::Pure::HTTP::ErrorList, Error::Pure::HTTP::Print,
-    Error::Pure::Output::Text, Error::Pure::Print, Error::Pure::Utils.
+    Error::Pure, Error::Pure::AllError, Error::Pure::Always,
+    Error::Pure::Die, Error::Pure::Error, Error::Pure::ErrorList,
+    Error::Pure::HTTP::AllError, Error::Pure::HTTP::Error,
+    Error::Pure::HTTP::ErrorList, Error::Pure::HTTP::JSON,
+    Error::Pure::HTTP::Print, Error::Pure::JSON, Error::Pure::NoDie,
+    Error::Pure::Output::JSON, Error::Pure::Output::Text,
+    Error::Pure::Print, Error::Pure::Utils.
 
 REPOSITORY
     <https://github.com/tupinek/Error-Pure-HTTP>
@@ -34,5 +37,5 @@ LICENSE AND COPYRIGHT
     BSD license.
 
 VERSION
-    0.03
+    0.12
 
