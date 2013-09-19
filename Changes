@@ -1,5 +1,6 @@
 0.12
 - Add LICENSE file.
+- Add dependency for perl (based on Error::Pure).
 - Add missing Error::Pure::* module to SEE ALSO section in doc.
 - Add missing Error::Pure::HTTP::AllError to SEE ALSO section in doc.
 - Add missing Error::Pure::NoDie to SEE ALSO section in doc.
