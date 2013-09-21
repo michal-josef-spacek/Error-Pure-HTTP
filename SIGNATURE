@@ -1,0 +1,75 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fb82bfb503a52ee2a8e293317022ba9030894398 Changes
+SHA1 4ea27bcf15460bcf67f15dc8c543d0195f08d1f6 HTTP.pm
+SHA1 4f29d88b23e8caea5f9188aa6901ea6b9f6645b2 HTTP/AllError.pm
+SHA1 8ba455d341708426419b47f3ebe20da434b962d0 HTTP/Error.pm
+SHA1 cabd8d3b29ff76e9721909bf52d5b29286d39227 HTTP/ErrorList.pm
+SHA1 7145c93aca1d3da4d1384b2adcf8ef56589a7d16 HTTP/Print.pm
+SHA1 1fad52740563da33cea5c5c7a60aeeff88528bf5 LICENSE
+SHA1 f55b5f5adf9b020637e8befcb97221263d3002ee MANIFEST
+SHA1 fac6598ca5fa687ce9844ab2054cc53715d595fa META.yml
+SHA1 c8f57d054c0a9244d5673c1955e90e75b80ca53c Makefile.PL
+SHA1 42b34972347463174c4d631bd2b421970013abda README
+SHA1 39422c05e455cff01f75087c7a38e816abf050ed examples/ex1.pl
+SHA1 0493cb48a930309c34fb184075d5ea380a8343e4 examples/ex2.pl
+SHA1 601c1249bc8d7461a13bde551a45189874601bc9 examples/ex3.pl
+SHA1 5a571ef8a583c571180650fdadc3fc420b261abc examples/ex4.pl
+SHA1 9c7ccdfc1846b0a3da3ae4452e4801f7067c5bf2 examples/ex5.pl
+SHA1 7fccd8b65917ead18f01c6c1f0ac928b91aebd68 examples/ex6.pl
+SHA1 ee3d9299deecd372e304a5a540fc2289b8fa953b examples/ex7.pl
+SHA1 687533635ea51a8b6355bdca7f86728aada708b0 examples/ex8.pl
+SHA1 b62c89ca681ae321fc7fd1cf2635777b47ff1194 examples/ex9.pl
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 13deb7ca6751a7bbf490d53900305a42c03d152e t/Error-Pure-HTTP-AllError/00-use.t
+SHA1 69cb1e737e6ef697961f00addd789bbda0324c25 t/Error-Pure-HTTP-AllError/01-version.t
+SHA1 bf8f9261808a8443afdfe7cb9c75828a8e26dd0f t/Error-Pure-HTTP-AllError/02-pod_coverage.t
+SHA1 2db5d54663bfb96c5b6ecceb667821006330a23d t/Error-Pure-HTTP-AllError/03-pod.t
+SHA1 f356ee7fe711c3c64fa82d5068bad5156ee9ccb4 t/Error-Pure-HTTP-Error/00-use.t
+SHA1 35cbe2a38904454bca4777184257646d37e0fd35 t/Error-Pure-HTTP-Error/01-version.t
+SHA1 203b1755a9c39d911441328944fb5ea27ca6a620 t/Error-Pure-HTTP-Error/02-pod_coverage.t
+SHA1 bd8f18cc3f6c6473f94deaad18151be0679c671c t/Error-Pure-HTTP-Error/03-pod.t
+SHA1 c452c846751ea5617f28f6c4ec52e619c90a1592 t/Error-Pure-HTTP-ErrorList/00-use.t
+SHA1 83a8f273118c5b28ffc07b7d3083c5d4b1c4ae2a t/Error-Pure-HTTP-ErrorList/01-version.t
+SHA1 3d3fb2b60a9cda1e632af3bb91f87dd876e80e05 t/Error-Pure-HTTP-ErrorList/02-pod_coverage.t
+SHA1 c1bde0dd1f1d1614fa14f716c680cb79a9d4a7a3 t/Error-Pure-HTTP-ErrorList/03-pod.t
+SHA1 f081b7de4c0a232c0ff62678ad5b0f6cbe3d773e t/Error-Pure-HTTP-Print/00-use.t
+SHA1 8a92e382030aac09265a6db8d4fef5eec920f9ed t/Error-Pure-HTTP-Print/01-version.t
+SHA1 0377c92e3237212a4ebde145f2981ec77177a858 t/Error-Pure-HTTP-Print/02-pod_coverage.t
+SHA1 5c7f55da05a225352faa73ccb60036f77014735d t/Error-Pure-HTTP-Print/03-pod.t
+SHA1 303815567f4afca11d9ae5d964efab06098cb4bc t/Error-Pure-HTTP/00-use.t
+SHA1 ddd21c92c00dcc9fcf8d6021958ada1a6c990a59 t/Error-Pure-HTTP/01-version.t
+SHA1 b017302477652acf6cda506c8a7156eda23a5184 t/Error-Pure-HTTP/02-pod_coverage.t
+SHA1 b3cbace097934598816fbdb98b70731909cdca45 t/Error-Pure-HTTP/03-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSPcM3AAoJEAwa+cf4dLBafbkH/0gpfeyMC0fpOcy8JbXrR3P4
+28ynu0Qndbpdt1SnhGOFfRnyZEe+70s7YI1N6/trp5pYd97UQDGrBcAg33tfqLk6
+ZYONgO2fLIwFqfJPZ6Tn32ST/C2PN8+5YBcncZ6PE9gEi3lHte37+nunXlBQTOnl
+XyRh7P/Srw1aU2hI+uKSdNF7C6f65+AbaCAn65e6lSJw0G+f0N6iGl1YpUbk80Si
+NAG0E5HpXjf+iFppEUOK4wu2pl53nmD3cOuFS6iONt+oPzfgJ2mTeZslB2MAmblI
+vrgvcCDsnlgEGxaK32nIPYowhKt6LZdWvZ78f+w0TwZw5cCiPpUfeiT0t+4y5LE=
+=V+ou
+-----END PGP SIGNATURE-----

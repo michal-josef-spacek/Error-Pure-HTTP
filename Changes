@@ -1,5 +1,6 @@
 0.12 2013-09-21
  - Add LICENSE file.
+ - Add SIGNATURE file.
  - Add dependency for perl (based on Error::Pure).
  - Add missing Error::Pure::* module to SEE ALSO section in doc.
  - Add missing Error::Pure::HTTP::AllError to SEE ALSO section in doc.
