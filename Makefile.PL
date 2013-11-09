@@ -10,6 +10,7 @@ abstract 'Perl module for plain HTTP output for structured errors.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-HTTP';
+readme_from 'HTTP.pm';
 requires 'Error::Pure::Utils' => 0.09;
 requires 'Error::Pure::Output::Text' => 0.09;
 requires 'List::MoreUtils' => 0;
