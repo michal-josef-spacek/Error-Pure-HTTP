@@ -1,5 +1,6 @@
 0.13
  - Add 'readme_from' directive to Makefile.PL.
+ - Fix LICENSE file.
  - Update Module::Install to 1.08 version.
 
 0.12 2013-09-21
