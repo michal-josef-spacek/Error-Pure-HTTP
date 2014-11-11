@@ -4,6 +4,9 @@
  - Fix LICENSE file.
  - Update Module::Install to 1.14 version.
 
+ [Error::Pure::HTTP::AllError]
+ - Fix warning with chomp on undefined value.
+
 0.12 2013-09-21
  - Add LICENSE file.
  - Add SIGNATURE file.
