@@ -5,15 +5,19 @@
  - Update Module::Install to 1.14 version.
 
  [Error::Pure::HTTP::AllError]
+ - Add basic tests.
  - Fix warning with chomp on undefined value.
 
  [Error::Pure::HTTP::Error]
+ - Add basic tests.
  - Fix warning with chomp on undefined value.
 
  [Error::Pure::HTTP::ErrorList]
+ - Add basic tests.
  - Fix warning with chomp on undefined value.
 
  [Error::Pure::HTTP::Print]
+ - Add basic tests.
  - Fix warning with chomp on undefined value.
 
 0.12 2013-09-21
