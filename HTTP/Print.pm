@@ -30,7 +30,11 @@ sub err {
 
 	# Error message.
 	my $e = $errors[-1]->{'msg'}->[0];
-	chomp $e;
+	if (! defined $e) {
+		$e = 'undef';
+	} else {
+		chomp $e;
+	}
 
 	# Finalize in main on last err.
 	my $stack_ar = $errors[-1]->{'stack'};
