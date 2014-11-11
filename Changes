@@ -10,6 +10,9 @@
  [Error::Pure::HTTP::Error]
  - Fix warning with chomp on undefined value.
 
+ [Error::Pure::HTTP::ErrorList]
+ - Fix warning with chomp on undefined value.
+
 0.12 2013-09-21
  - Add LICENSE file.
  - Add SIGNATURE file.
