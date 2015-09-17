@@ -5,12 +5,12 @@ use strict;
 use warnings;
 
 # Modules.
-use Error::Pure::HTTP::ErrorList qw(err);
+use Error::Pure::HTTP::Print qw(err);
 
 # Error.
-err '1', '2', '3';
+err '1';
 
-# Output like this:
+# Output:
 # Content-type: text/plain
-# 
-# #Error [script.pl:11] 1
+#
+# 1

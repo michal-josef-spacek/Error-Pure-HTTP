@@ -5,12 +5,22 @@ use strict;
 use warnings;
 
 # Modules.
-use Error::Pure::HTTP::ErrorList qw(err);
+use Error::Pure::HTTP::AllError qw(err);
+
+# Print before.
+print "Before\n";
 
 # Error.
-err '1';
+err "This is a fatal error.", "name", "value";
+
+# Print after.
+print "After\n";
 
 # Output like this:
+# Before
 # Content-type: text/plain
-# 
-# #Error [script.pl:11] 1
+#
+# ERROR: This is a fatal error.
+# name: value
+# main  err  ./script.pl  12
+# After
