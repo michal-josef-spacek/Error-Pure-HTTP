@@ -1,5 +1,6 @@
 0.14
  [Common]
+ - Move author tests to xt/ directory.
  - Update Module::Install to 1.16 version.
 
 0.13 2014-11-12T17:01:55+01:00
