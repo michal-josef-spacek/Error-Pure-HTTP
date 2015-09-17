@@ -94,7 +94,7 @@ with informations over HTTP.
 
  # Output like this:
  # Content-type: text/plain
- # 
+ #
  # #Error [script.pl:11] 1
 
 =head1 EXAMPLE2
@@ -111,7 +111,7 @@ with informations over HTTP.
 
  # Output like this:
  # Content-type: text/plain
- # 
+ #
  # #Error [script.pl:11] 1
 
 =head1 EXAMPLE3
