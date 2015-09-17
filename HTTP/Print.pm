@@ -16,7 +16,7 @@ Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $EVAL => 'eval {...}';
 
 # Version.
-our $VERSION = 0.14;
+our $VERSION = 0.15;
 
 # Ignore die signal.
 $SIG{__DIE__} = 'IGNORE';
@@ -156,6 +156,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.14
+0.15
 
 =cut
