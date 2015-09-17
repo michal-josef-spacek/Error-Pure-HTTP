@@ -91,7 +91,7 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
  # Output like this:
  # Content-type: text/plain
- # 
+ #
  # #Error [script.pl:12] 1
 
 =head1 EXAMPLE2
@@ -108,7 +108,7 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
  # Output like this:
  # Content-type: text/plain
- # 
+ #
  # #Error [script.pl:12] 1
 
 =head1 DEPENDENCIES
