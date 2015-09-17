@@ -2,7 +2,8 @@ TODO
 ====
 4. Az bude v Error::Pure helper na vlastni err funkcionalitu, tak prepsat.
 5. V Print resim nejake zmeny vystupu, proc to nedelam ve vsech modulech?
-6.
+6. clean() po erroru v testech.
+7.
 
 Applied
 =======
