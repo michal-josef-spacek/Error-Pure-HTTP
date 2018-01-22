@@ -2,6 +2,7 @@
  [Common]
  - Update Module::Install to 1.19 version.
  - Update author name.
+ - Update copyright years.
 
 0.14 2015-09-17T23:17:40+02:00
  [Common]
