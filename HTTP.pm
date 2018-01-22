@@ -1,6 +1,5 @@
 package Error::Pure::HTTP;
 
-# Pragmas.
 use strict;
 use warnings;
 

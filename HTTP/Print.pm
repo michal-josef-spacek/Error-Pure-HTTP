@@ -1,11 +1,9 @@
 package Error::Pure::HTTP::Print;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure::Utils qw(err_helper);
 use List::MoreUtils qw(none);
 use Readonly;
@@ -90,11 +88,9 @@ Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::Print qw(err);
 
  # Error.
@@ -107,11 +103,9 @@ Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::Print qw(err);
 
  # Error.

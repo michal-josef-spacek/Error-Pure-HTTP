@@ -1,11 +1,9 @@
 package Error::Pure::HTTP::ErrorList;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure::Utils qw(err_helper);
 use Error::Pure::Output::Text qw(err_line_all);
 use List::MoreUtils qw(none);
@@ -82,11 +80,9 @@ with informations over HTTP.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::ErrorList qw(err);
 
  # Error.
@@ -99,11 +95,9 @@ with informations over HTTP.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::ErrorList qw(err);
 
  # Error.
@@ -116,11 +110,9 @@ with informations over HTTP.
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use English qw(-no_match_vars);
  use Error::Pure::HTTP::ErrorList qw(err);
 

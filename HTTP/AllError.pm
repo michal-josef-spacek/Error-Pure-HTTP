@@ -1,11 +1,9 @@
 package Error::Pure::HTTP::AllError;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure::Utils qw(err_helper);
 use Error::Pure::Output::Text qw(err_bt_pretty);
 use List::MoreUtils qw(none);
@@ -81,11 +79,9 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::AllError qw(err);
 
  # Error.
@@ -100,11 +96,9 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::AllError qw(err);
 
  # Print before.

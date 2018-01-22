@@ -1,11 +1,9 @@
 package Error::Pure::HTTP::Error;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure::Utils qw(err_helper);
 use Error::Pure::Output::Text qw(err_line);
 use List::MoreUtils qw(none);
@@ -79,11 +77,9 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::Error qw(err);
 
  # Error.
@@ -96,11 +92,9 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::HTTP::Error qw(err);
 
  # Error.
