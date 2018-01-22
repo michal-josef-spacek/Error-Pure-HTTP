@@ -1,5 +1,6 @@
 0.15
  [Common]
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Update Module::Install to 1.19 version.
  - Update author name.
  - Update copyright years.
