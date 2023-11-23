@@ -88,6 +88,8 @@ Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
 
 =head1 EXAMPLE1
 
+=for comment filename=print.pl
+
  use strict;
  use warnings;
 
@@ -102,6 +104,8 @@ Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
  # 1
 
 =head1 EXAMPLE2
+
+=for comment filename=print_with_arguments.pl
 
  use strict;
  use warnings;

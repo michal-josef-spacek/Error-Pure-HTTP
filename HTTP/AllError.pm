@@ -79,6 +79,8 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
 
 =head1 EXAMPLE1
 
+=for comment filename=all_error.pl
+
  use strict;
  use warnings;
 
@@ -95,6 +97,8 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
  # main  err  ./script.pl  12
 
 =head1 EXAMPLE2
+
+=for comment filename=all_error_plus_extra.pl
 
  use strict;
  use warnings;

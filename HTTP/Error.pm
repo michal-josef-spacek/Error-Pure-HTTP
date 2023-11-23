@@ -77,6 +77,8 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 
 =head1 EXAMPLE1
 
+=for comment filename=error.pl
+
  use strict;
  use warnings;
 
@@ -91,6 +93,8 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
  # #Error [script.pl:12] 1
 
 =head1 EXAMPLE2
+
+=for comment filename=error_with_arguments.pl
 
  use strict;
  use warnings;

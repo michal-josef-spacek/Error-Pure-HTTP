@@ -80,6 +80,8 @@ with informations over HTTP.
 
 =head1 EXAMPLE1
 
+=for comment filename=error_list.pl
+
  use strict;
  use warnings;
 
@@ -95,6 +97,8 @@ with informations over HTTP.
 
 =head1 EXAMPLE2
 
+=for comment filename=error_list_with_arguments.pl
+
  use strict;
  use warnings;
 
@@ -109,6 +113,8 @@ with informations over HTTP.
  # #Error [script.pl:11] 1
 
 =head1 EXAMPLE3
+
+=for comment filename=error_list_multiple.pl
 
  use strict;
  use warnings;
