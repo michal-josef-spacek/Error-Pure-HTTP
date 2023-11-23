@@ -54,7 +54,7 @@ Install the Error::Pure modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Error-Pure-HTTP>
+L<https://github.com/michal-josef-spacek/Error-Pure-HTTP>
 
 =head1 AUTHOR
 
