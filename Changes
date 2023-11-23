@@ -1,5 +1,6 @@
 0.16
  [Common]
+ - Improve LICENSE AND COPYRIGHT sections in doc.
  - Update Module::Install to 1.21 version.
  - Update author github username.
 
