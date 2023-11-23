@@ -63,6 +63,7 @@ Error::Pure::HTTP::Error - Error::Pure module with error on one line over HTTP.
 =head1 SYNOPSIS
 
  use Error::Pure::HTTP::Error qw(err);
+
  err 'This is a fatal error', 'name', 'value';
 
 =head1 SUBROUTINES

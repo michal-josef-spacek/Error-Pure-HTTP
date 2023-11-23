@@ -65,6 +65,7 @@ Error::Pure::HTTP::AllError - Error::Pure module with full backtrace over HTTP.
 =head1 SYNOPSIS
 
  use Error::Pure::HTTP::AllError qw(err);
+
  err "This is a fatal error.", "name", "value";
 
 =head1 SUBROUTINES

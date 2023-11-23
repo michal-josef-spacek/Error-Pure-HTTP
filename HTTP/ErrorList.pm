@@ -66,6 +66,7 @@ with informations over HTTP.
 =head1 SYNOPSIS
 
  use Error::Pure::HTTP::ErrorList qw(err);
+
  err "This is a fatal error.", "name", "value";
 
 =head1 SUBROUTINES

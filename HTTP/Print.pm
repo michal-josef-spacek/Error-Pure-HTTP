@@ -74,6 +74,7 @@ Error::Pure::HTTP::Print - Error::Pure module for simple error print over HTTP.
 =head1 SYNOPSIS
 
  use Error::Pure::HTTP::Print qw(err);
+
  err 'This is a fatal error', 'name', 'value';
 
 =head1 SUBROUTINES
